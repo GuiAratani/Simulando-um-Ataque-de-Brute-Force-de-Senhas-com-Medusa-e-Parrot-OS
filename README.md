@@ -1,2 +1,2 @@
-# Simulando-um-Ataque-de-Brute-Force-de-Senhas-com-Medusa-e-Parrot-OS
-Projeto do bootcamp de Cibersegurança 2025 do Santander e DIO.
+# Projeto de pentest simulando ataques de brute force usando Parrot OS e Medusa.
+Este projeto teve como objetivo realizar uma auditoria de segurança ofensiva em ambiente controlado, utilizando Parrot OS como máquina atacante e Metasploitable 2 como alvo vulnerável. Foram simulados ataques de força bruta em serviços FTP, HTTP (DVWA) e SMB, com o uso da ferramenta Medusa, além de técnicas de enumeração e automação.
