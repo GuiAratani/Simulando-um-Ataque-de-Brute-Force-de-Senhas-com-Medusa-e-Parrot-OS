@@ -4,14 +4,14 @@ Este projeto teve como objetivo realizar uma auditoria de segurança ofensiva em
 ___
 ## 🔧 Ferramentas
 * Parrot OS (Maquina atacante)
-* Metasplotable 2 (Maquina alvo, IP: 192.168.100.222)
+* Metasploitable 2 (Maquina alvo, IP: 192.168.100.222)
 * Nmap
 * Medusa
 ___
 ## 📎Etapa 1 Enumeração de serviços com Nmap 
 * Acesso Root: ``` sudo su ```
 * Codigo: ``` nmap -sV -p 21, 22, 80, 445, 139 192.168.100.222 ```
-* Tester porta: ``` ftp 192.168.100.222 ```
+* Teste porta: ``` ftp 192.168.100.222 ```
 ___
 ## 📎Etapa 2 Criação de wordlists
 * Lista de usuarios: ``` echo -e "user\nmsfadmin\root" > users.txt ```
